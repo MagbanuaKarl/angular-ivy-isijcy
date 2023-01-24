@@ -1,0 +1,24 @@
+p {
+  font-family: Lato;
+
+  word-spacing: 2px;
+}
+
+.green {
+  color: green;
+}
+.blue {
+  color: blue;
+}
+h2 {
+  color: blue;
+  text-align: center;
+}
+
+.btn {
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}

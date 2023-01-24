@@ -1,0 +1,14 @@
+<h1>
+  {{ appName }}
+</h1>
+
+<input type="text" [value]="myName" />
+
+<p [style.color]="myColor">Text color is styled using style binding</p>
+<p [class]="appliedCSSClass">This line applied the *myClass* property</p>
+<p [class.blue]="notappliedCSSClass">While this line does not...</p>
+
+<!--- Event binding --->
+
+<h2>Event Binding</h2>
+<button class="btn" (click)="showData($event)">Click here</button>
